@@ -1,3 +1,53 @@
-body {
+#scale_body {
     text-align: center;
+}
+#button *{
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    font-size: large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 1px solid;
+}
+#tenth {
+    background-color: green;
+}
+#eigth {
+    background-color: lightgreen;
+}
+#seventh {
+    background-color: blue;
+}
+
+#sixth {
+    background-color: lightblue;
+}
+
+#fifth {
+    background-color: yellow;
+}
+
+#fourth{
+    background-color: lightyellow;
+}
+
+#third {
+    background-color: orange;
+}
+
+#second {
+    background-color: lightcoral;
+}
+
+#first {
+    background-color: red;
+}
+/* Contact Screen */
+#section {
+    width: 100%;
+    text-align: center;
+    float: left;
+}
+#circles {
+    text-align: center;
+
 }

@@ -1,0 +1,14 @@
+h1.blocktext{
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    width: 100%;
+    }
+IMG.profile{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    border-radius: 50%;
+}

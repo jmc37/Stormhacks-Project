@@ -1,7 +1,6 @@
 h1.blocktext{
     color: whitesmoke;
     font-family: 'Oleo Script Swash Caps', cursive;
-    position: absolute;
     text-align: center;
     top: 30%;
     width: 100%;
@@ -26,53 +25,82 @@ IMG.profile{
     background-color: red; /* For browsers that do not support gradients */
     background-image: linear-gradient(#33A9AC,#343779 );
 }
-#button *{
-    margin-bottom: 0%;
-    padding-bottom: 0%;
-    font-size: large;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    border: 1px solid;
+.center{
+    margin: auto;
 }
-#button *{
+#button {
+    position: relative;
+    margin: auto;
+    width: auto;
     text-align: center;
-    margin-bottom: 0%;
-    padding-bottom: 0%;
     font-size: large;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    border: 1px solid;
 }
 #tenth {
     background-color: green;
+    width: 20%;
+    height: 8%;
+    border-radius: 20%;
+}
+#ninth {
+    background-color: green;
+    width: 20%;
+    height: 8%;
+    border-radius: 20%;
 }
 #eigth {
     background-color: lightgreen;
+    width: 20%;
+    height: 8%;
+    border-radius: 20%;
 }
 #seventh {
     background-color: blue;
+    width: 20%;
+    height: 8%;
+    border-radius: 20%;
 }
 
 #sixth {
     background-color: lightblue;
+    width: 20%;
+    height: 8%;
+    border-radius: 20%;
 }
 
 #fifth {
     background-color: yellow;
+    width: 20%;
+    height: 8%;
+    border-radius: 20%;
 }
 
 #fourth{
     background-color: lightyellow;
+    width: 20%;
+    height: 8%;
+    border-radius: 20%;
 }
 
 #third {
     background-color: orange;
+    width: 20%;
+    height: 8%;
+    border-radius: 20%;
 }
 
 #second {
     background-color: lightcoral;
+    width: 20%;
+    height: 8%;
+    border-radius: 20%;
 }
 
 #first {
     background-color: red;
+    width: 20%;
+    height: 8%;
+    border-radius: 20%;
 }
 /* Contact Screen */
 #section {

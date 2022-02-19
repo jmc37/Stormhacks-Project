@@ -4,7 +4,15 @@ h1.blocktext{
     text-align: center;
     top: 30%;
     width: 100%;
+    position: absolute;
     }
+h1.blocktext2{
+    color: whitesmoke;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    text-align: center;
+    top: 30%;
+    width: 100%;
+}
 IMG.profile{
     position: absolute;
     left: 50%;
@@ -110,5 +118,4 @@ IMG.profile{
 }
 #circles {
     text-align: center;
-
 }

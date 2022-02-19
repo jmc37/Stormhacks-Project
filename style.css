@@ -33,9 +33,6 @@ IMG.profile{
     background-color: red; /* For browsers that do not support gradients */
     background-image: linear-gradient(#33A9AC,#343779 );
 }
-<<<<<<< HEAD
-#button *{
-=======
 .center{
     margin: auto;
 }
@@ -43,7 +40,6 @@ IMG.profile{
     position: relative;
     margin: auto;
     width: auto;
->>>>>>> b9c69afdf7eb1d5fcdea1e2a9713ee8341c0f39e
     text-align: center;
     font-size: large;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;

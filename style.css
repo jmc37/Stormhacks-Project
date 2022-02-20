@@ -1,3 +1,13 @@
+* {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/quicksand/v28/6xKtdSZaM9iE8KbpRA_hJVQNYuDyP7bh.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    /* text-decoration: none; */
+  }
+  
+
 h1.blocktext{
     color: whitesmoke;
     font-family: 'Oleo Script Swash Caps', cursive;
@@ -28,18 +38,15 @@ IMG.profile{
     background-image: linear-gradient(#33A9AC,#343779 );
 }
 #grad2{
-<<<<<<< HEAD
     height: 1000px;
-    background-color: red; /* For browsers that do not support gradients */
-    background-image: linear-gradient(#7b4397,#343779 );
+    /* background-color: red; For browsers that do not support gradients */
+    background-image: linear-gradient(#ac5dd3,#301b3a );
 }
 #grad3{
-        height: 1000px;
-        background-color: red; /* For browsers that do not support gradients */
-        background-image: linear-gradient(#eecda3,#ef629f );
-=======
+    height: 1000px;
+    /* background-color: red; For browsers that do not support gradients */
+    background-image: linear-gradient(#eecda3,#ef629f );
     background-image: linear-gradient(#33A9AC,#343779 );
->>>>>>> 22a75d48745259a3604def48f308820bcce4e096
 }
 #button {
     position: relative;
@@ -49,8 +56,8 @@ IMG.profile{
     font-size: large;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-#tenth {
-    background-color: green;
+/* #tenth { */
+    /* background-color: green;
     width: 20%;
     height: 8%;
     border-radius: 20%;
@@ -127,8 +134,9 @@ IMG.profile{
     height: 8%;
     border-radius: 20%;
     font-size: 200%;
-}
+} */
 /* Contact Screen */
+
 #section {
     width: 100%;
     text-align: center;
@@ -137,35 +145,40 @@ IMG.profile{
 #circles {
     text-align: center;
 }
-<<<<<<< HEAD
+
 .Share_Buttons{
-    background-color: green;
+    background-color: #c0abe2;
     border: none;
     color: white;
     padding: 15px 32px;
     text-align: center;
     cursor: pointer;
-=======
-#next-page {
->>>>>>> 22a75d48745259a3604def48f308820bcce4e096
-    width: 20%;
-    height: 10%;
-    border-radius: 20%;
-    margin: 10px 0px 10px 0px;
+    border-radius: 5%;
 }
-<<<<<<< HEAD
+
+#next-page {
+    width: 20%;
+    background-color: #c0abe2;
+    border:none;
+    margin-top: 5%;
+    height: 5%;
+    border-radius: 10%;
+    /* margin: 10px 0px 10px 0px; */
+}
+
 a{
     text-decoration: none;
 }
 .User_Buttons{
     margin: 0 auto;
-    background-color: lavender;
+    background-color: #c0abe2;
     width: 150px;
     height: 150px;
     border-radius: 100%;
     display: block;
     margin-bottom: 30px;
     font-size: 50px;
+    border: 3px solid red;
 }
 p.rating{
     display: block;
@@ -175,5 +188,36 @@ p.rating{
     text-align: center;
     margin-bottom: 30px;
 }
-=======
->>>>>>> 22a75d48745259a3604def48f308820bcce4e096
+
+
+.slider {
+    -webkit-appearance: slider-vertical;  /* Override default CSS styles */
+    appearance: none;
+    width: 100%; /* Full-width */
+    height: 60%; /* Specified height */
+    background: #d3d3d3; /* Grey background */
+    outline: none;
+    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+    }
+.slider:hover {
+    opacity: 100%;
+}
+#contact_container {
+    text-align: center;
+    background-color: #c0abe2;
+    height: auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+#icon_buttons {
+    padding: 10px;
+    border-radius: 10px;
+}
+@media screen and (max-width: 600px) {
+    * {
+        width: 100%;
+    }
+
+}

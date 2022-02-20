@@ -25,10 +25,10 @@ IMG.profile{
 }
 #grad1 {
     height: 1000px;
-    background-color: red; /* For browsers that do not support gradients */
     background-image: linear-gradient(#33A9AC,#343779 );
 }
 #grad2{
+<<<<<<< HEAD
     height: 1000px;
     background-color: red; /* For browsers that do not support gradients */
     background-image: linear-gradient(#7b4397,#343779 );
@@ -37,9 +37,9 @@ IMG.profile{
         height: 1000px;
         background-color: red; /* For browsers that do not support gradients */
         background-image: linear-gradient(#eecda3,#ef629f );
-}
-.center{
-    margin: auto;
+=======
+    background-image: linear-gradient(#33A9AC,#343779 );
+>>>>>>> 22a75d48745259a3604def48f308820bcce4e096
 }
 #button {
     position: relative;
@@ -137,6 +137,7 @@ IMG.profile{
 #circles {
     text-align: center;
 }
+<<<<<<< HEAD
 .Share_Buttons{
     background-color: green;
     border: none;
@@ -144,14 +145,15 @@ IMG.profile{
     padding: 15px 32px;
     text-align: center;
     cursor: pointer;
+=======
+#next-page {
+>>>>>>> 22a75d48745259a3604def48f308820bcce4e096
     width: 20%;
-    height: 8%;
+    height: 10%;
     border-radius: 20%;
-    font-size: 200%;
-    margin: 0 auto;
-    margin-bottom: 50px;
-    display: block;
+    margin: 10px 0px 10px 0px;
 }
+<<<<<<< HEAD
 a{
     text-decoration: none;
 }
@@ -173,3 +175,5 @@ p.rating{
     text-align: center;
     margin-bottom: 30px;
 }
+=======
+>>>>>>> 22a75d48745259a3604def48f308820bcce4e096

@@ -7,14 +7,18 @@
     /* text-decoration: none; */
   }
   
-
+.emoticon {
+    text-align: center;
+    width: 100%;
+}
 h1.blocktext{
     color: whitesmoke;
-    font-family: 'Oleo Script Swash Caps', cursive;
+    /* font-family: 'Oleo Script Swash Caps', cursive; */
     text-align: center;
-    top: 30%;
+    top: 50%;
     width: 100%;
-    position: absolute;
+    margin-top: 40%;
+    /* position: relative; */
     }
 h1.blocktext2{
     color: whitesmoke;
@@ -218,6 +222,7 @@ p.rating{
 @media screen and (max-width: 600px) {
     * {
         width: 100%;
+        height: auto;
     }
 
 }

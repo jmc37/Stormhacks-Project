@@ -11,6 +11,7 @@
     text-align: center;
     width: 100%;
 }
+
 h1.blocktext{
     color: whitesmoke;
     /* font-family: 'Oleo Script Swash Caps', cursive; */
@@ -208,12 +209,19 @@ p.rating{
 .slider:hover {
     opacity: 100%;
 }
+.demo, .scale_text{
+    color: #c0abe2;
+    text-align: center;
+    font-size: large;
+}
+
 #contact_container {
     text-align: center;
     background-color: #c0abe2;
     height: auto;
     padding: 10px;
     border-radius: 10px;
+    margin: 10px;
 }
 #icon_buttons {
     padding: 10px;
@@ -224,7 +232,7 @@ p.rating{
         width: 100%;
         height: auto;
         font-size: auto;
-        
+
     }
 
 }

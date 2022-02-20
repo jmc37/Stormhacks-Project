@@ -1,1 +1,5 @@
-# Stormhacks-Project
+# Reach
+
+# Presenting Reach
+## A web application that allows users to check in on their friends and significant others within seconds.
+Reaching out to friends on a day by day basis can be taxing sometimes and not always possibility due to busy schedules or other commitments during the day. There's also the issue of not being able to see how everyone is currently feeling without asking them directly. We aim to address this by giving users a way to display their current mood so that friends and familiy can tell how they are doing. Our web application allows users to connect with each other after seeing the other's person mood which is currently represented by a scale of 1-10. With this web application, we hope to help give people gain a better understanding of their friends current status and the ability for them to reach out when they need it the most.
